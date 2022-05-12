@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+    
+    <div class="take-input">
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        Input for table 1
+                    </td>
+                    <td>
+                        <input type="text" id="input1" placeholder="x#x#x">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Input for table 2
+                    </td>
+                    <td>
+                        <input type="text" id="input2" placeholder="x#x#x">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="button" onclick="createTable()" value="Create Table">  </button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div id="table-container">
+        <h4>Table 1</h4>
+        <table id="table1"></table>
+        <h4>Table 2</h4>
+        <table id="table2"></table>
+        <h4>Table 3</h4>
+        <table id="table3"></table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

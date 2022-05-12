@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQUERY MOBILE</title>
+
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body>
+    <div data-role="page" id="page1">
+        <div data-role="header" data-theme="b">
+            <h1>HEADER</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <fieldset data-role="controlgroup">
+                <legend> Select all sports you enjoy</legend>
+                <input type="checkbox" name="checkbox-1a" id="checkbox-1a" value="Football"> 
+                <label for="checkbox-1a"> Football</label>
+                <input type="checkbox" name="checkbox-2a" id="checkbox-2a" value="Rugby"> 
+                <label for="checkbox-2a">Rugby </label> 
+                <input type="checkbox" name="checkbox-3a" id="checkbox-3a" value="Volleyball"> 
+                <label for="checkbox-3a"> Volleyball</label> 
+                <input type="checkbox" name="checkbox-4a" id="checkbox-4a" value="Swimming" checked=""> 
+                <label for="checkbox-4a"> Swimming</label> 
+                <input type="checkbox" name="checkbox-5a" id="checkbox-5a" value="Badminton"> 
+                <label for="checkbox-5a">Badminton </label> 
+            </fieldset>
+
+        </div>
+        <div data-role="footer" data-theme="b">
+            <div data-role="navbar" data-iconpos="bottom">
+                <ul>
+                    <li> <a href="#" data-icon="gear">Settings</a> </li>
+                    <li> <a href="#" data-icon="heart">Favourites</a> </li>
+                    <li> <a href="#page2" data-icon="carat-r">Next Page</a>  </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="page2">
+        <h1> FUCK YEAH! PAGE 2</h1>
+    </div>
+    
+</body>
+</html>
